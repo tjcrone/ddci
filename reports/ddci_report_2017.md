@@ -54,7 +54,7 @@ Ingestion backlogs are an area of concern in terms of data availability for the 
 
 It is the committee’s view that the separated organizational structure of the CI and Data team has led to roadblocks in terms of the effective and efficient dissemination of data to the scientific community, and in terms of the ability for the scientific community to provide input on decisions made by the administrators of the system. The committee believes that the two teams would benefit from the establishment of an OOI Data Delivery Manager with authority over the priorities of the OOI CI and Data Teams. The primary goal of the Data Delivery Manager should be to deliver data to the scientific users in a way that works for those users, and to be responsive to the users’ needs and input, with the scientific users defined as the *customers* inside the OOI “business model”. With oversight over the CI and Data Teams, the Data Delivery Manager can help reorient the focus to delivery of data to the scientific user in the most efficient and effective manner possible.
 
-**3.0 Long-Term Recommendations (OOI 2.0)**
+**3 Long-Term Recommendations (OOI 2.0)**
 
 The committee has several longer-term recommendations to facilitate data dissemination as OOI 1.0 transitions to OOI 2.0. These recommendations are:
 
@@ -93,7 +93,7 @@ For this reason, the committee recommends that collaborations and or partnership
 
 A person or small group should be retained in a management position at the level of the MIOs that has the primary goal of overseeing data delivery to the scientific community, is responsive to the needs of the scientific community, and has oversight authority over all management components of the cyberinfrastructure system and administration so that decisions about the cyberinfrastructure can be made with the needs of the scientific community at the forefront.
 
-**4.0 Summary**
+**4 Summary**
 
 In summary the recommendations of the DDCI Committee over the short term are:
 
