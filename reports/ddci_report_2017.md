@@ -32,7 +32,7 @@ The committee has several near-term recommendations to facilitate data dissemina
 
   1.  Prioritize the development and public release of the uFrame-powered ERDDAP server.
   2.  Accelerate the ingestion of backlogged data.
-  3.  Identify a single individual who will be responsible for accelerating data access and who has the authority to define both CI and Data Team priorities.
+  3.  Identify a single individual who will be responsible for improving data access for the scientific end user and who has the authority to define both CI and Data Team priorities.
 
 *2.1 ERDDAP*
 
@@ -50,18 +50,18 @@ The committee also recommends that the ERDDAP developers begin or continue to in
 
 Ingestion backlogs are an area of concern in terms of data availability for the scientific community. The committee recommends that data ingestion remain a top priority for the CI and Data Teams. The committee notes that although the M2M ingestion system appears to be promising, the MIOs are not currently using it, and may in fact not be authorized to use it. Also, it is not clear how a distributed ingestion model can work. The committee recommends that the CI and Data teams continue to focus on data ingestion using a centralized model with the understanding that the MIOs may not be involved in the near-term.
 
-*2.3 Data delivery manager*
+*2.3 Data Delivery Manager*
 
-It is the committee’s view that the separated organizational structure of the CI and Data team has led to roadblocks in terms of the effective and efficient dissemination of data to the scientific community, and in terms of the ability for the scientific community to provide input on decisions made by the administrators of the system. The committee believes that the two teams would benefit from the establishment of a data delivery manager with authority over the priorities of the OOI CI and Data Teams. The primary goal of the data delivery manager should be to deliver data to the scientific users in a way that works for those users, and to be responsive to the users’ needs and input, with the scientific users defined as the *customers* inside the OOI “business model”. With oversight over the CI and Data Teams, the data delivery manager can help reorient the focus to delivery of data to the scientific user in the most efficient and effective manner possible.
+It is the committee’s view that the separated organizational structure of the CI and Data team has led to roadblocks in terms of the effective and efficient dissemination of data to the scientific community, and in terms of the ability for the scientific community to provide input on decisions made by the administrators of the system. The committee believes that the two teams would benefit from the establishment of an OOI Data Delivery Manager with authority over the priorities of the OOI CI and Data Teams. The primary goal of the Data Delivery Manager should be to deliver data to the scientific users in a way that works for those users, and to be responsive to the users’ needs and input, with the scientific users defined as the *customers* inside the OOI “business model”. With oversight over the CI and Data Teams, the Data Delivery Manager can help reorient the focus to delivery of data to the scientific user in the most efficient and effective manner possible.
 
 **3.0 Long-Term Recommendations (OOI 2.0)**
 
 The committee has several longer-term recommendations to facilitate data dissemination as OOI 1.0 transitions to OOI 2.0. These recommendations are:
 
-  1.  Assess the future viability of uFrame
-  2.  Place a primary focus on the scientific user base
-  3.  Consider partnerships for providing remote compute capability for larger OOI datasets
-  4.  Maintain a data delivery manager in OOI 2.0
+  1.  Assess the future viability of uFrame.
+  2.  Place a primary focus on the scientific user base.
+  3.  Consider partnerships for providing remote compute capability for larger OOI datasets.
+  4.  Maintain a Data Delivery Manager in OOI 2.0.
 
 *3.1 Assess the future viability of uFrame*
 
@@ -89,7 +89,7 @@ For some OOI data the download model for data access is simply not viable. In pa
 
 For this reason, the committee recommends that collaborations and or partnerships be sought to provide combined compute and storage capability for these large datasets. One potential partner is XSEDE, which oversees a consortium of some of the country’s largest supercomputer operators. XSEDE may be able to provide hosting and access to these data using some novel funding model. Other possibilities include the development of commercial partners such as Amazon or Google who may be willing to host these large datasets at affordable rates, or Calit2 which has expressed interest in hosting OOI data. The possibilities for partnerships abound, and for some of the data in the OOI system, a cloud-based solution is the best way to accelerate data access for the scientific community.
 
-*3.4 Maintain a data delivery manager in OOI 2.0*
+*3.4 Maintain a Data Delivery Manager in OOI 2.0*
 
 A person or small group should be retained in a management position at the level of the MIOs that has the primary goal of overseeing data delivery to the scientific community, is responsive to the needs of the scientific community, and has oversight authority over all management components of the cyberinfrastructure system and administration so that decisions about the cyberinfrastructure can be made with the needs of the scientific community at the forefront.
 
