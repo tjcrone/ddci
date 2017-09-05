@@ -93,6 +93,17 @@ For this reason, the committee recommends that collaborations and or partnership
 
 A person or small group should be retained in a management position at the level of the MIOs that has the primary goal of overseeing data delivery to the scientific community, is responsive to the needs of the scientific community, and has oversight authority over all management components of the cyberinfrastructure system and administration so that decisions about the cyberinfrastructure can be made with the needs of the scientific community at the forefront.
 
-**4.0 Conclusions**
+**4.0 Summary**
 
-\[I’m still thinking of how to structure the conclusions. I guess we want to boil everything down into bullet points?\]
+In summary the recommendations of the DDCI Committee over the short term are:
+
+  1.  Prioritize the release of the OOI ERDDAP server by empowering the ERDDAP development team with all needed access to the production server and by shortening of the deployment cycle timeline.
+  2.  Accelerate the ingestion of backlogged data.
+  3.  Identify a single individual who will serve as OOI Data Delivery Manager and will be responsible for improving data access for the scientific end user and who has the authority to define both CI and Data Team priorities.
+
+To help guide the formation of the CA for OOI 2.0, the recommendations of the DDCI Committee are:
+
+  1.  Assess the future viability of uFrame.
+  2.  Place a primary focus on the scientific user base for data delivery.
+  3.  Consider partnerships for providing remote compute capability for larger OOI datasets.
+  4.  Maintain the position of OOI Data Delivery Manager in OOI 2.0
