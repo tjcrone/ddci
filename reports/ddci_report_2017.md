@@ -4,7 +4,7 @@
 
 **1 Introduction**
 
-To facilitate the assessment of Ocean Observatories Initiative (OOI) data quality by the science community, and to accelerate the integration of OOI infrastructure usage into project proposals and scientific publications, the NSF Ocean Observatories Initiative Facility Board (OOIFB) established the Data Dissemination and Cyberinfrastructure (DDCI) ad hoc committee which is tasked with identifying near‐term obstacles to the enhanced delivery of data to the scientific community and providing recommendations for removing these obstacles.
+To facilitate the assessment of Ocean Observatories Initiative (OOI) data quality by the science community, and to accelerate the integration of OOI infrastructure usage into project proposals and scientific publications, the NSF Ocean Observatories Initiative Facility Board (OOIFB) established the Data Dissemination and Cyberinfrastructure (DDCI) ad hoc committee which is tasked with identifying near-term obstacles to the enhanced delivery of data to the scientific community and providing recommendations for removing these obstacles.
 
 The DDCI comprises the following individuals:
 
