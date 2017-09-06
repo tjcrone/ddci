@@ -95,7 +95,7 @@ A person or small group should be retained in a management position at the level
 
 **4 Summary**
 
-In summary the recommendations of the DDCI Committee over the short term are:
+In summary, the recommendations of the DDCI Committee over the short term are:
 
   1.  Prioritize the release of the OOI ERDDAP server by empowering the ERDDAP development team with all needed access to the production server and by shortening of the deployment cycle timeline.
   2.  Accelerate the ingestion of backlogged data.
@@ -106,4 +106,4 @@ To help guide the formation of the CA for OOI 2.0, the recommendations of the DD
   1.  Assess the future viability of uFrame.
   2.  Place a primary focus on the scientific user base for data delivery.
   3.  Consider partnerships for providing remote compute capability for larger OOI datasets.
-  4.  Maintain the position of OOI Data Delivery Manager in OOI 2.0
+  4.  Maintain the position of OOI Data Delivery Manager in OOI 2.0.
