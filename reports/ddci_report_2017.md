@@ -32,15 +32,17 @@ The committee has several near-term recommendations to facilitate data dissemina
 
   1.  Prioritize the development and public release of the uFrame-powered ERDDAP server.
   2.  Accelerate the ingestion of backlogged data.
-  3.  Identify a single individual who will be responsible for improving data access for the scientific end user and who has the authority to define both CI and Data Team priorities.
+  3.  Identify a single individual who reports directly to the Project's Lead PI, who will be responsible for data access by scientists and who has authority over both CI and Data Team priorities.
 
 *2.1 ERDDAP*
 
-ERRDAP is a free and open-source Java “servlet” which for the non-expert can be thought of as a kind of specialized web server that excels in serving and converting disparate scientific datasets using a uniform interface. ERDDAP is focused primarily on serving tabular or time-series datasets which are stored on the server as static NetCDF files, and it can serve raw (processed) data in a large number of formats as well as generate plots and maps of requested data. ERDDAP has a standard browser interface that facilitates searching for, converting, and plotting data, but ERDDAP is built on a RESTful API, meaning that the server does not store browser state and all information about every request is contained in the URL of each request. This makes it easy to automate searching for and using data in other applications like Python or MATLAB, and makes it easy for users to build their own custom interfaces if they so wish.
+ERRDAP is a free and open-source Java “servlet” which for the non-expert can be thought of as a kind of specialized web server that excels in serving and converting disparate scientific datasets using a uniform interface. ERDDAP is focused primarily on serving tabular or time-series datasets which are stored on the server as static NetCDF files, and it can serve raw (processed) data in a large number of formats as well as generate plots and maps of requested data. Together, ERDDAP and NetCDF allow data, metadata, processing algorithms, and data attribution information to be distributed in a convenient and efficient manner.
 
-ERDDAP is a server framework that allows anyone with data to serve to serve their data by running their own ERDDAP server. Many dozens of organizations are now running ERDDAP servers to serve their scientific data, and ERDDAP is on its way to becoming a de facto standard in the Oceanographic community. Many oceanographers are already familiar with the ERDDAP interface and have already developed their own tools to work with data served by such systems.
+ERDDAP has a standard browser interface that facilitates searching for, converting, and plotting data, but ERDDAP is built on a RESTful API, meaning that the server does not store browser state and all information about every request is contained in the URL of each request. This makes it easy to automate searching for and using data in other applications like Python or MATLAB, and makes it easy for users to build their own custom interfaces if they so wish.
 
-The committee believes that ERDDAP has the potential to serve most of the OOI data in an efficient and useful manner and that the deployment of an ERDDAP system that works on top of uFrame could greatly expand OOI data availability for the scientific community. The committee recommends that the development of the ERDDAP system be made a top priority.
+ERDDAP is a server framework that allows anyone with data to serve their data by running their own ERDDAP server. Many dozens of organizations (including NOAA, NASA, and USGS) are now running ERDDAP servers to serve their scientific data, and ERDDAP is on its way to becoming a de facto standard in the Oceanographic community. The ERDDAP developer and user community have created user guides, instruction videos, and code examples to facilitate access by new users.
+
+The committee believes that ERDDAP has the potential to serve most of the OOI data in an efficient and useful manner and that the deployment of an ERDDAP system that works on top of uFrame could greatly expand OOI data availability for the scientific community. The committee recommends that the development of the ERDDAP system be made the top priority for the near term.
 
 To expedite the development of the ERDDAP system, the committee recommends that the ERDDAP development team be provided with the access they need to complete this task as quickly and as efficiently as possible. At a minimum, the ERDDAP team should be given read access to the production Tomcat logs. Another suggestion for speeding up the development of ERDDAP is to reduce the deployment timeline from two weeks to a few days, specifically in support of the ERDDAP team to accelerate the development of this system.
 
@@ -52,7 +54,7 @@ Ingestion backlogs are an area of concern in terms of data availability for the 
 
 *2.3 Data Delivery Manager*
 
-It is the committee’s view that the separated organizational structure of the CI and Data team has led to roadblocks in terms of the effective and efficient dissemination of data to the scientific community, and in terms of the ability for the scientific community to provide input on decisions made by the administrators of the system. The committee believes that the two teams would benefit from the establishment of an OOI Data Delivery Manager with authority over the priorities of the OOI CI and Data Teams. The primary goal of the Data Delivery Manager should be to deliver data to the scientific users in a way that works for those users, and to be responsive to the users’ needs and input, with the scientific users defined as the *customers* inside the OOI “business model”. With oversight over the CI and Data Teams, the Data Delivery Manager can help reorient the focus to delivery of data to the scientific user in the most efficient and effective manner possible.
+It is the committee’s view that the organizational structure of the CI and Data team has created roadblocks to the effective and efficient dissemination of data to the scientific community, and inefficient allocation of resources. Further, collaboration with the MIO personnel appears to have been hindered since useful tools and experiences have not been effectively shared. Since the primary motivation of the OOI is to deliver data to scientists, the committee believes that the program would benefit from the establishment of an OOI Data Delivery Manager. The Data Delivery Manager should report directly to the Lead PI and be responsible for the primary product of the OOI. To be effective, the Data Delivery Manager must have authority over the work that is currently conducted by the CI and Data Teams, and also have frequent interaction with the technical staff at the MIOs. As data reaches more scientists, issues that requires technical input from the entire OOI will emerge and responses coordinated. For the OOI to be successful, the Data Delivery Manager must have the resources and authority to ensure that the system is responsive to the users’ needs and input.
 
 **3 Long-Term Recommendations (OOI 2.0)**
 
@@ -69,7 +71,7 @@ The committee and nearly everyone consulted by members of the committee have ser
 
 Another primary concern is the apparent lack of documentation for uFrame and the proprietary nature of many components of the uFrame codebase. In addition to the obvious transparency issues when dealing with closed-source code, the proprietary aspect of the software may become a budget issue in the future. If there are no funds for planned product improvements or if Raytheon is unwilling to make uFrame open source, then OOI could be locked in with a Raytheon product for the foreseeable future. Even if Raytheon does release the source code, there is no guarantee that the current CI team (or the new team if that changes) will have the skills to maintain and modify what would become a fork of the Raytheon product into the public domain.
 
-Despite these concerns, the committee notes that the uFrame/Cassandra database model offers some advantages that *may* not be easily replicated using a simpler file based system. The first among these is that uFrame stores instrument raw data in the database, and applies processors to the data upon data request. This model would theoretically allow users to apply custom processor files to the raw data to generate alternative data products during queries, however it is not clear if this capability has been realized. Currently changing processors appears to be a long and complex process which regular users do not have easy access to. Another advantage is that the current system is capable of ingesting, processing, and serving data from the Cabled Array in real-time, which provides substantial scientific value.
+Despite these concerns, the committee notes that the uFrame/Cassandra database model offers some advantages that *may* not be easily replicated using a simpler file based system. The first among these is that uFrame stores instrument raw data in the database, and applies processors to the data upon data request. This model would, in principle, allow users to apply custom processor files to the raw data to generate alternative data products during queries, however it is not clear if this capability has been realized. Currently changing processors appears to be a long and complex process which regular users do not have easy access to. Another advantage is that the current system is capable of ingesting, processing, and serving data from the Cabled Array in real-time, which provides substantial scientific value.
 
 For OOI 2.0, the committee recommends that uFrame be evaluated in terms of the issues listed above, and that potential alternatives be considered. Any replacement systems considered should not descope the capabilities of the CI, and specifically should maintain and preferably extend the “compute on query” aspect of the system, and should maintain the real-time ingestion/processing/service capability of Cabled Array data.
 
@@ -81,7 +83,8 @@ The OOI has enormous potential for outreach and education, for use by the genera
   2.  How good are the data? Are the metadata flags easy to understand and are they well incorporated into the data provided? Scientists need to know how reliable the data they obtain is.
   3.  Where are the data? Are the data easy to download in easy to use formats? Can the data be downloaded by clicking a link instead of by waiting for an e-mail to arrive? Scientists may want to see plots of data in real time, but in most cases scientists will want to download data in some sort of table format that allows them to do their own processing and visualization using the software tools of their choice.
 
-Efforts to improve the UI of the OOI should be focused on how working scientists actually use data.
+Efforts to improve the UI of the OOI should be focused on how working scientists actually use data and processes must be developed to solicit and consider user input, and evaluate effectiveness.
+
 
 *3.3 Consider partnerships for providing remote compute capability for larger OOI datasets*
 
@@ -91,7 +94,7 @@ For this reason, the committee recommends that collaborations and or partnership
 
 *3.4 Maintain a Data Delivery Manager in OOI 2.0*
 
-A person or small group should be retained in a management position at the level of the MIOs that has the primary goal of overseeing data delivery to the scientific community, is responsive to the needs of the scientific community, and has oversight authority over all management components of the cyberinfrastructure system and administration so that decisions about the cyberinfrastructure can be made with the needs of the scientific community at the forefront.
+A person should be identified that has the primary goal of overseeing data delivery to the scientific community, is responsive to the needs of the scientific community, and has oversight authority over all management components of the cyberinfrastructure system and administration so that decisions about the cyberinfrastructure can be made with the needs of the scientific community at the forefront.
 
 **4 Summary**
 
@@ -99,7 +102,7 @@ In summary, the recommendations of the DDCI Committee over the short term are:
 
   1.  Prioritize the release of the OOI ERDDAP server by empowering the ERDDAP development team with all needed access to the production server and by shortening of the deployment cycle timeline.
   2.  Accelerate the ingestion of backlogged data.
-  3.  Identify a single individual who will serve as OOI Data Delivery Manager and will be responsible for improving data access for the scientific end user and who has the authority to define both CI and Data Team priorities.
+  3.  Identify a single individual, the OOI Data Delivery Manager, who reports directly to the Project's Lead PI and who will be responsible for data access by scientists and who has authority over both CI and Data Team priorities.
 
 To help guide the formation of the CA for OOI 2.0, the recommendations of the DDCI Committee are:
 
