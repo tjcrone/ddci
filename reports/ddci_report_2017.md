@@ -64,7 +64,7 @@ The committee has several longer-term recommendations to facilitate data dissemi
   2.  Place a primary focus on the scientific user base.
   3.  Consider partnerships for providing remote compute capability for larger OOI datasets.
   4.  Maintain a Data Delivery Manager in OOI 2.0.
-  5. Support operational centers by disseminating data in real time via Global Telecommunications System.
+  5.  Support operational centers by disseminating data in real time via Global Telecommunications System.
 
 *3.1 Assess the future viability of uFrame*
 
@@ -99,7 +99,7 @@ A person should be identified that has the primary goal of overseeing data deliv
 
 *3.5 Support operational centers by disseminating data in real time via Global Telecommunications System.*
 
-The [Global Telecommunications System](http://www.wmo.int/pages/prog/www/TEM/GTS/index_en.html) (GTS), run by World Meteorological Organization (WMO), provides a mechanism for the National Meteorological Centers to ingest and disseminate real time observations and forecast products.  Data collected by the OOI can be of high value to operational met services for data assimilation in real time or model verification in delayed mode.  GTS distribution from OOI can be faciliated by the NOAA National Data Buoy Center and the U.S. IOOS program.  Some OOI glider data has already been submitted to the GTS through the IOOS [Glider Data Assembly Center](gliders.ioos.us) which has been working with OOI CI Data Managemetn teams on [glider data submission](https://data.ioos.us/gliders/providers/users/rutgers/deployment/595e4c0a98723c14a8dce2f7) recently.  IOOS and NDBC are currently re-engineering the real time data submission porcess to rely heavily on ERDDAP which is consistent with the recommendations in this report for the OOI-CI data dissemination strategy.  Because of the alignment of technologies and given the high value of hte OOI data to the operational centers, we recommend a firm commitment to distributing as much OOI data as is possible in real time via the GTS as part of OOI 2.0.
+The [Global Telecommunications System](http://www.wmo.int/pages/prog/www/TEM/GTS/index_en.html) (GTS), run by World Meteorological Organization (WMO), provides a mechanism for the National Meteorological Centers to ingest and disseminate real time observations and forecast products. Data collected by the OOI can be of high value to operational met services for data assimilation in real time or model verification in delayed mode. GTS distribution from OOI can be faciliated by the NOAA National Data Buoy Center and the U.S. IOOS program. Some OOI glider data has already been submitted to the GTS through the IOOS [Glider Data Assembly Center](gliders.ioos.us) which has been working with OOI CI Data Managemetn teams on [glider data submission](https://data.ioos.us/gliders/providers/users/rutgers/deployment/595e4c0a98723c14a8dce2f7) recently. IOOS and NDBC are currently re-engineering the real time data submission porcess to rely heavily on ERDDAP which is consistent with the recommendations in this report for the OOI-CI data dissemination strategy. Because of the alignment of technologies and given the high value of hte OOI data to the operational centers, we recommend a firm commitment to distributing as much OOI data as is possible in real time via the GTS as part of OOI 2.0.
 
 **4 Summary**
 
@@ -115,3 +115,4 @@ To help guide the formation of the CA for OOI 2.0, the recommendations of the DD
   2.  Place a primary focus on the scientific user base for data delivery.
   3.  Consider partnerships for providing remote compute capability for larger OOI datasets.
   4.  Maintain the position of OOI Data Delivery Manager in OOI 2.0.
+  5.  Support operational centers by disseminating data in real time via Global Telecommunications System.
