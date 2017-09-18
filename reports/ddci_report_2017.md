@@ -4,7 +4,7 @@
 
 **1 Introduction**
 
-To facilitate the assessment of Ocean Observatories Initiative (OOI) data quality by the science community, and to accelerate the integration of OOI infrastructure usage into project proposals and scientific publications, the NSF Ocean Observatories Initiative Facility Board (OOIFB) established the Data Dissemination and Cyberinfrastructure (DDCI) ad hoc committee which is tasked with identifying near-term obstacles to the enhanced delivery of data to the scientific community and providing recommendations for removing these obstacles.
+To facilitate the assessment of Ocean Observatories Initiative (OOI) data quality by the science community, and to accelerate the integration of OOI infrastructure usage into project proposals and scientific publications, the NSF Ocean Observatories Initiative Facility Board (OOIFB) established the Data Dissemination and Cyberinfrastructure (DDCI) ad hoc committee which is tasked with identifying near-term and longer-term obstacles to the enhanced delivery of data to the scientific community and providing recommendations for removing these obstacles.
 
 The DDCI comprises the following individuals:
 
@@ -64,7 +64,7 @@ The committee has several longer-term recommendations to facilitate data dissemi
   2.  Place a primary focus on the scientific user base.
   3.  Consider partnerships for providing remote compute capability for larger OOI datasets.
   4.  Maintain a Data Delivery Manager in OOI 2.0.
-  5.  Support operational centers by disseminating data in real time via Global Telecommunications System.
+  5.  Support operational centers by disseminating data in real time via the Global Telecommunications System.
 
 *3.1 Assess the future viability of uFrame*
 
@@ -78,20 +78,19 @@ For OOI 2.0, the committee recommends that uFrame be evaluated in terms of the i
 
 *3.2 Place a primary focus on the scientific user base*
 
-The OOI has enormous potential for outreach and education, for use by the general public, the media, and by students of all ages. However, the viability of the observing system during these early years of operation will be dependent on proposal pressure from scientists in the community to use and expand OOI assets, and on the publication of peer-reviewed journal articles based on OOI data. Indeed, **a primary goal of this committee is to accelerate the availability of OOI data for scientists and thus expand the use of these data for science. For this reason, the committee recommends that efforts to improve the user experience on the OOI data portal, and the expanded availability of data through systems such as ERDDAP or the M2M interface be focused on the needs of the working scientists.** Based on our discussions, our view is that scientists have needs and requirements that are quite different than the casual user, and can be summarized by this list of questions a scientist is likely to ask when looking to obtain data:
+The OOI has enormous potential for outreach and education, for use by the general public, the media, and by students of all ages. However, the viability of the observing system during these early years of operation will be dependent on proposal pressure from scientists in the community to use and expand OOI assets, and on the publication of peer-reviewed journal articles based on OOI data. Indeed, **a primary goal of this committee is to accelerate the availability of OOI data for scientists and thus expand the use of these data for science. For this reason, the committee recommends that efforts to improve the user experience on the OOI data portal, and the expanded availability of data through systems such as ERDDAP or the M2M interface be focused on the needs of working scientists.** Based on our discussions, our view is that scientists have needs and requirements that are quite different than the casual user, and can be summarized by this list of questions a scientist is likely to ask when looking to obtain data:
 
-  1.  What data is available? What instruments are working and which ones are not? Scientists need an easy to see overview of the entire system, which instruments are working, which ones are not, and why not, and which ones will be working in the future.
+  1.  What data is available? What instruments are working and which ones are not? Scientists need an easy-to-see overview of the entire system, which instruments are working, which ones are not and why not, and which ones will be working in the future.
   2.  How good are the data? Are the metadata flags easy to understand and are they well incorporated into the data provided? Scientists need to know how reliable the data they obtain is.
-  3.  Where are the data? Are the data easy to download in easy to use formats? Can the data be downloaded by clicking a link instead of by waiting for an e-mail to arrive? Scientists may want to see plots of data in real time, but in most cases scientists will want to download data in some sort of table format that allows them to do their own processing and visualization using the software tools of their choice.
+  3.  Where are the data? Are the data easy to download in easy to use formats? Can the data be downloaded by clicking a link instead of by waiting for an e-mail to arrive? Scientists may want to see plots of data in real time, but in most cases scientists will want to download data in some sort of tabular format (e.g., HDF5) that allows them to do their own processing and visualization using the software tools of their choice.
 
 Efforts to improve the UI of the OOI should be focused on how working scientists actually use data and processes must be developed to solicit and consider user input, and evaluate effectiveness.
 
-
 *3.3 Consider partnerships for providing remote compute capability for larger OOI datasets*
 
-For some OOI data the download model for data access is simply not viable. In particular, the hydrophone and the HD video datasets are so large that researchers cannot hope to download these datasets within any reasonable timeframe. For example, the HD video dataset comprises nearly 7000 high-resolution video files totaling approximately 85 TB in size. Not only might it take many weeks or months to download the entire dataset, but most researchers would struggle to find the space to store such a large amount of data locally.
+For some OOI data the download model for data access is simply not viable. In particular, the hydrophone and the HD video datasets are so large that researchers cannot hope to download these datasets within any reasonable timeframe. For example, the HD video dataset currently includes nearly 7000 high-resolution video files totaling approximately 85 TB in size. Not only might it take many weeks or months to download the entire dataset, but most researchers would struggle to find the space to store such a large amount of data locally.
 
-**For this reason, the committee recommends that collaborations and or partnerships be sought to provide combined compute and storage capability for these large datasets.** One potential partner is XSEDE, which oversees a consortium of some of the country’s largest supercomputer operators. XSEDE may be able to provide hosting and access to these data using some novel funding model. Other possibilities include the development of commercial partners such as Amazon or Google who may be willing to host these large datasets at affordable rates, or Calit2 which has expressed interest in hosting OOI data. The possibilities for partnerships abound, and for some of the data in the OOI system, a cloud-based solution is the best way to accelerate data access for the scientific community.
+**For this reason, the committee recommends that collaborations and or partnerships be sought to provide combined compute and storage capability for these large datasets.** One potential partner is XSEDE, a consortium of some of the country’s largest supercomputer operators. XSEDE may be able to provide hosting and access to these data using some novel funding model. Other possibilities include the development of commercial partners such as Amazon or Google who may be willing to host these large datasets at affordable rates, or Calit2 which has expressed interest in hosting OOI data. The possibilities for partnerships abound, and for some of the data in the OOI system, a cloud-based solution is the best way to accelerate data access for the scientific community.
 
 *3.4 Maintain a Data Delivery Manager in OOI 2.0*
 
@@ -115,4 +114,4 @@ To help guide the formation of the CA for OOI 2.0, the recommendations of the DD
   2.  Place a primary focus on the scientific user base for data delivery.
   3.  Consider partnerships for providing remote compute capability for larger OOI datasets.
   4.  Maintain the position of OOI Data Delivery Manager in OOI 2.0.
-  5.  Support operational centers by disseminating data in real time via Global Telecommunications System.
+  5.  Support operational centers by disseminating data in real time via the Global Telecommunications System.
