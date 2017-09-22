@@ -35,6 +35,7 @@ The committee has several near-term recommendations to facilitate data dissemina
   1.  Prioritize the development and public release of the uFrame-powered ERDDAP server.
   2.  Accelerate the ingestion of backlogged data.
   3.  Identify a single individual who reports directly to the Project's Lead PI, who will be responsible for data access by scientists and who has authority over both CI and Data Team priorities.
+  4.  Make sure documentation is complete and all code is in publicly-accessible repositiories.
 
 *2.1 ERDDAP*
 
@@ -50,13 +51,17 @@ To expedite the development of the ERDDAP system, the committee recommends that 
 
 The committee also recommends that the ERDDAP developers begin or continue to interact with other OOI developers such as the CGSN who have developed internal ERDDAP systems, and that they ensure that the ERDDAP data sets are well-described using best practices for international standards. For example, it would be best if the OOI CI way of publishing data followed the NCEI NetCDF Templates, widely used in the community. These were designed for long-term preservation, scientific quality control, product development, and multiple data re-use beyond its original intent.
 
-*2.1 Data ingestion*
+*2.2 Data ingestion*
 
 Ingestion backlogs are an area of concern in terms of data availability for the scientific community. **The committee recommends that data ingestion remain a top priority for the CI and Data Teams.** The committee notes that although the M2M ingestion system appears to be promising, the MIOs are not currently using it, and may in fact not be authorized to use it. Also, it is not clear how a distributed ingestion model can work. The committee recommends that the CI and Data teams continue to focus on data ingestion using a centralized model with the understanding that the MIOs may not be involved in the near-term.
 
 *2.3 Data Delivery Manager*
 
 It is the committee’s view that the organizational structure of the CI and Data team has created roadblocks to the effective and efficient dissemination of data to the scientific community, and inefficient allocation of resources. Further, collaboration with the MIO personnel appears to have been hindered since useful tools and experiences have often not been effectively shared. **Since the primary motivation of the OOI is to deliver data to scientists, the committee believes that the program would benefit from the establishment of an OOI Data Delivery Manager.** The Data Delivery Manager should report directly to the Lead PI and be responsible for the primary product of the OOI. To be effective, the Data Delivery Manager must have authority over the work that is currently conducted by the CI and Data Teams, and also have frequent interaction with the technical staff at the MIOs. As data reaches more scientists, issues that require technical input from the entire OOI will emerge and responses coordinated. For the OOI to be successful, the Data Delivery Manager must have the resources and authority to ensure that the system is responsive to the users’ needs and input.
+
+*2.4 Document the cyberinfrastructure*
+
+Although there is a large amount of existing documentation regarding the data, it seems that many of the essential tasks of running the existing cyberinfrastructure are known only by specific key personnel.  There should be a focus on documentation that will allow development, maintenance and knowledge transfer to other developers and system operaters.  The documentation needs to cover all aspects of the cyberinfrastructure, including server environment, installation and configuration, data workflow components, troubleshooting, and code development.
 
 **3 Long-Term Recommendations (OOI 2.0)**
 
