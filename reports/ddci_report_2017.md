@@ -35,7 +35,7 @@ The committee has several near-term recommendations to facilitate data dissemina
   1.  Prioritize the development and public release of the uFrame-powered ERDDAP server.
   2.  Accelerate the ingestion of backlogged data.
   3.  Identify a single individual who reports directly to the Project's Lead PI, who will be responsible for data access by scientists and who has authority over both CI and Data Team priorities.
-  4.  Make sure documentation is complete and all code is in publicly-accessible repositiories.
+  4.  Make sure documentation is complete and all code is in publicly-accessible repositories.
 
 *2.1 ERDDAP*
 
@@ -61,7 +61,7 @@ It is the committee’s view that the organizational structure of the CI and Dat
 
 *2.4 Document the cyberinfrastructure*
 
-Although there is a large amount of existing documentation regarding the data, it seems that many of the essential tasks of running the existing cyberinfrastructure are known only by specific key personnel.  There should be a focus on documentation that will allow development, maintenance and knowledge transfer to other developers and system operaters.  The documentation needs to cover all aspects of the cyberinfrastructure, including server environment, installation and configuration, data workflow components, troubleshooting, and code development.
+Although there is a large amount of existing documentation regarding the data, it seems that many of the essential tasks of running the existing cyberinfrastructure are known only by specific key personnel.  There should be a focus on documentation that will allow development, maintenance and knowledge transfer to other developers and system operators.  The documentation needs to cover all aspects of the cyberinfrastructure, including server environment, installation and configuration, data workflow components, troubleshooting, and code development.
 
 **3 Long-Term Recommendations (OOI 2.0)**
 
@@ -115,6 +115,7 @@ In summary, the recommendations of the DDCI Committee over the short term are:
   1.  Prioritize the release of the OOI ERDDAP server by empowering the ERDDAP development team with all needed access to the production server and by shortening of the deployment cycle timeline.
   2.  Accelerate the ingestion of backlogged data.
   3.  Identify a single individual, the OOI Data Delivery Manager, who reports directly to the Project's Lead PI and who will be responsible for data access by scientists and who has authority over both CI and Data Team priorities.
+  4.  Make sure documentation is complete and all code is in publicly-accessible repositories.
 
 To help guide the formation of the CA for OOI 2.0, the recommendations of the DDCI Committee are:
 
