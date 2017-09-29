@@ -35,7 +35,7 @@ The committee has several near-term recommendations to facilitate data dissemina
   1.  Prioritize the development and public release of the uFrame-powered ERDDAP server.
   2.  Accelerate the ingestion of backlogged data.
   3.  Identify a single individual who reports directly to the Project's Lead PI, who will be responsible for data access by scientists and who has authority over both CI and Data Team priorities.
-  4.  Make sure documentation is complete and all code is in publicly-accessible repositories.
+  4.  When the ERDDAP system is fully functional, documentation for the CI system must be completed and all code made available in publicly-accessible repositories.
 
 *2.1 ERDDAP*
 
@@ -61,7 +61,7 @@ It is the committee’s view that the organizational structure of the CI and Dat
 
 *2.4 Document the cyberinfrastructure*
 
-Although there is a large amount of existing documentation regarding the data, it seems that many of the essential tasks of running the existing cyberinfrastructure are known only by specific key personnel. There should be a focus on documentation that will allow development, maintenance and knowledge transfer to other developers and system operators. The documentation needs to cover all aspects of the cyberinfrastructure, including server environment, installation and configuration, data workflow components, troubleshooting, and code development. Further, barring well-justified reasoning on a repository-by-repository basis, OOI should begin the process of moving code back into publicly available GitHub repositories.
+Although there is a large amount of existing documentation regarding the data, it seems that many of the essential tasks of running the existing cyberinfrastructure are known only by specific key personnel. Once the ERDDAP capability has been added to the system, the focus of the CI team should shift to completing the documentation that will allow development, maintenance and knowledge transfer to other developers and system operators. The documentation needs to cover all aspects of the cyberinfrastructure, including server environment, installation and configuration, data workflow components, troubleshooting, and code development. Further, barring well-justified reasoning on a repository-by-repository basis, OOI should begin the process of moving code back into publicly available GitHub repositories. GitHub is the committee's preferred repository management system.
 
 **3 Long-Term Recommendations (OOI 2.0)**
 
