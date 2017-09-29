@@ -61,7 +61,7 @@ It is the committee’s view that the organizational structure of the CI and Dat
 
 *2.4 Document the cyberinfrastructure*
 
-Although there is a large amount of existing documentation regarding the data, it seems that many of the essential tasks of running the existing cyberinfrastructure are known only by specific key personnel.  There should be a focus on documentation that will allow development, maintenance and knowledge transfer to other developers and system operators.  The documentation needs to cover all aspects of the cyberinfrastructure, including server environment, installation and configuration, data workflow components, troubleshooting, and code development.
+Although there is a large amount of existing documentation regarding the data, it seems that many of the essential tasks of running the existing cyberinfrastructure are known only by specific key personnel. There should be a focus on documentation that will allow development, maintenance and knowledge transfer to other developers and system operators. The documentation needs to cover all aspects of the cyberinfrastructure, including server environment, installation and configuration, data workflow components, troubleshooting, and code development. Further, barring well-justified reasoning on a repository-by-repository basis, OOI should begin the process of moving code back into publicly available GitHub repositories.
 
 **3 Long-Term Recommendations (OOI 2.0)**
 
