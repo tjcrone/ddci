@@ -85,8 +85,8 @@ For OOI 2.0, the committee recommends that uFrame be evaluated in terms of the i
 
 The OOI has enormous potential for outreach and education, for use by the general public, the media, and by students of all ages. However, the viability of the observing system during these early years of operation will be dependent on proposal pressure from scientists in the community to use and expand OOI assets, and on the publication of peer-reviewed journal articles based on OOI data. Indeed, **a primary goal of this committee is to accelerate the availability of OOI data for scientists and thus expand the use of these data for science. For this reason, the committee recommends that efforts to improve the user experience on the OOI data portal, and the expanded availability of data through systems such as ERDDAP or the M2M interface be focused on the needs of working scientists.** Based on our discussions, our view is that scientists have needs and requirements that are quite different than the casual user, and can be summarized by this list of questions a scientist is likely to ask when looking to obtain data:
 
-  1.  What data is available? What instruments are working and which ones are not? Scientists need an easy-to-see overview of the entire system to help them plan research activities.
-  2.  How good are the data? Are the metadata flags easy to understand and are they well incorporated into the data provided? Scientists need to know how reliable the data they obtain is.
+  1.  What data are available? What instruments are working and which ones are not? Scientists need an easy-to-see overview of the entire system to help them plan research activities.
+  2.  How good are the data? Are the metadata flags easy to understand and are they well incorporated into the data provided? Scientists need to know how reliable the data they obtain are.
   3.  Where are the data? Are the data easy to download in easy to use formats? Can the data be downloaded by clicking a link instead of by waiting for an e-mail to arrive? Scientists may want to see plots of data in real-time, but in most cases scientists will want to download data in some sort of tabular format (e.g., HDF5) that allows them to do their own processing and visualization using the software tools of their choice.
   4.  Can the workflow from raw to processed data be reproduced easily and independently, so that new algorithms and approaches may be tested and improvements fed back into the processing system?
 
@@ -110,7 +110,7 @@ The [Global Telecommunications System](http://www.wmo.int/pages/prog/www/TEM/GTS
 
 In summary, the recommendations of the DDCI Committee over the short term are:
 
-  1.  Prioritize the release of the OOI ERDDAP server by empowering the ERDDAP development team with all needed access to the production server and by shortening of the deployment cycle timeline.
+  1.  Prioritize the release of the OOI ERDDAP server by empowering the ERDDAP development team with all needed access to the production server and by shortening the deployment cycle timeline.
   2.  Accelerate the ingestion of backlogged data.
   3.  Identify a single individual, the OOI Data Delivery Manager, who reports directly to the Project's Lead PI and who will be responsible for data access by scientists and who has authority over both CI and Data Team priorities.
   4.  Make sure documentation is complete and all code is in publicly-accessible repositories.
